@@ -7,6 +7,8 @@ public interface Process extends Remote {
 
 	public void startElection() throws RemoteException;
 	
-	public void setLeader(String lider) throws RemoteException;
-	
+	public void setCoordinator(Long coordinator) throws RemoteException;
+
+	public Long getPID() throws RemoteException;
+
 }
