@@ -51,6 +51,10 @@ public class Vote {
 		this.dateTime = dateTime; 
 	}
 
+	/*
+	 * Metodo que gera um bloco usando um identificador, data e horário, o nome do
+	 * presidente votado e hash do bloco anterior.
+	 */
 	private String getSHA256(int identifier, String dateTime, String data, String previousHash) {
 
 		CharSequence sequence = Integer.toString(identifier) + dateTime + data + previousHash;
