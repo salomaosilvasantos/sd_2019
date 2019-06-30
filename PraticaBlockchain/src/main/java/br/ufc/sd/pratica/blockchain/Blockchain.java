@@ -16,7 +16,7 @@ import br.ufc.sd.pratica.blockchain.model.Vote;
  * @author salomao
  *
  */
-public class BlockchainJSON {
+public class Blockchain {
 
 	/*
 	 * Metodo que gera blocos e adiciona em um arquivo Json
